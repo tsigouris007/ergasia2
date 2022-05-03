@@ -1,0 +1,16 @@
+link rotR(link h);
+link rotL(link h);
+link insertT(link h, Item item);
+void STinsert(Item item);
+link STinsertSub(link l, Item item);
+Item selectR(link h, int k);
+Item STselect(int k);
+link partR(link h, int k);
+link joinLR(link a, link b);
+link deleteR(link h, Key v);
+void STdelete(Key v);
+link STjoin(link a, link b);
+void STinit(int);
+ int STcount();
+Item STsearch(Key);
+void STsort(void (*visit)(Item));
